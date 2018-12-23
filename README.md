@@ -19,9 +19,9 @@ Ex:
       
       santaobj = sesan(test)  
       
-      for i in testsanta.Matches.keys():
+      for i in santaobj.Matches.keys():
          
-         print("{}: {}".format(i,testsanta.Matches[i]))
+         print("{}: {}".format(i,santaobj.Matches[i]))
 
 
 # The future
