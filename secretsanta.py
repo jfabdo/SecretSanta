@@ -8,7 +8,7 @@ class SecretSanta:
     def match_santas(self):
        #secsantalist will contain an unchecked list of secret santas
        poplen = len(self.group)  # population length
-       secsantalist = sample(range(poplen),poplen) #sample(self.group,poplen) 
+       secsantalist = sample(range(poplen),poplen) 
        
        
        #check and avoid collisions based on string comparisons
@@ -17,13 +17,7 @@ class SecretSanta:
            j = secsantalist[i+1]
            secsantalist[i+1] = i
            secsantalist[i] = j
-           #j = i % poplen
-           #k = (j + 1) % poplen
-           
-           #tempsanta = secsantalist[k]
-           #secsantalist[k] = secsantalist[j]
-           #secsantalist[j] = tempsanta
-           #i = (i + 1) % poplen
+
        finalsantalist = []
        for i in range(poplen):
          finalsantalist.append(self.group[secsantalist[i]])
