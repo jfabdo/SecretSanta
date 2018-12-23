@@ -22,7 +22,3 @@ Ex:
       for i in santaobj.Matches.keys():
          
          print("{}: {}".format(i,santaobj.Matches[i]))
-
-
-# The future
-I'm considering writing this in Kotlin, so that it could be run on the JVM, and possibly be made into an app for ease of Secret Santa choosing. Message me if you're interested in such a project in the future.
