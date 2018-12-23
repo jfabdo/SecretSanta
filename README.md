@@ -2,10 +2,10 @@
 Secret Santa-generating Python class
 
 # Origin
-Last year, I decided to solve the age-old problem of "how do we choose Secret Santas" programatically. But I was short on time and feeling ill, so I wrote it as a Bozo sort. 
+Last year, I decided to solve the age-old problem of "how do we choose Secret Santas" programatically. But I was short on time and feeling ill, so I wrote it as a Bozo sort, which I knew wouldn't scale well for larger organizations.
 
 # Latest Version
-This year, I decided to fix it and make it into a class as it should be. This can be pulled into any python program and used however you choose, whether you want it to text everyone their assigned recipient for a truely blind Secret Santa experience, or export it as a CSV. You choose.
+This year, I decided to fix it as well as making it into a class as it should be. This can be pulled into any python program and used however you choose, whether you want it to text everyone their assigned recipient for a truely blind Secret Santa experience, or export it as a CSV. You choose.
 
 # Advantages
 Runs in N time, uses random choice without replacement for efficiency.
