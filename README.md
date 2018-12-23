@@ -13,10 +13,10 @@ Runs in N time. Uses random choice without replacement for efficiency. Users can
 # Usage
 Ex:  
     from secretsanta import SecretSanta as sesan  
-    test = ["Ada","Luna","Alice,"Carol","Jim,"Bob","Frank","Sam"]  
+    test = ["Ada","Luna","Alice","Carol","Jim","Bob","Frank","Sam"]  
     santaobj = sesan(test)  
     for i in range(len(santaobj.Matches)):  
-      print(i,":",santaobj.Matches[i])  
+        print(i,":",santaobj.Matches[i])  
 
 # The future
 I'm considering writing this in Kotlin, so that it could be run on the JVM, and possibly be made into an app for ease of Secret Santa choosing. Message me if you're interested in such a project in the future.
