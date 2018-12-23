@@ -8,7 +8,7 @@ Last year, I decided to solve the age-old problem of "how do we choose Secret Sa
 This year, I decided to fix it as well as making it into a class as it should be. This can be pulled into any python program and used however you choose, whether you want it to text everyone their assigned recipient for a truely blind Secret Santa experience, or export it as a CSV. You choose.
 
 # Advantages
-Runs in N time, uses random choice without replacement for efficiency.
+Runs in N time. Uses random choice without replacement for efficiency. Users can be represented by any python or binary object, even employees with the same name, and the system will be able to differentiate them.
 
 # Usage
 Ex:
