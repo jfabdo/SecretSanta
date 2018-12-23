@@ -13,8 +13,11 @@ Runs in N time. Uses random choice without replacement for efficiency. Users can
 # Usage
 Ex:  
 `      from secretsanta import SecretSanta as sesan  
+
       test = ["Ada","Luna","Alice","Carol","Jim","Bob","Frank","Sam"]  
+      
       santaobj = sesan(test)  
+      
       print(santaobj.Matches) `
 
 # The future
